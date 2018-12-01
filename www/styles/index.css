@@ -12,6 +12,9 @@
         border-width: thin;
 	*/
 }
+.pageContainerSection {
+	border-top: 1px solid #ccc;
+}
 .basicServersTableRow {
 	display: flex;
 	flex-direction: row;
@@ -60,6 +63,7 @@ body {
 	padding:0;
 	height:100%;
 	min-width:500px;
+	background-color: #E6E6E6;
 }   
 .sectionHeading {
 	font-family:Arial;
@@ -243,13 +247,14 @@ body {
 }
 
 .header{
-	background-color: #E6E6E6;
 	min-width:600px;
 	height: 50px;
 	color:black;
 	text-align:center;
 	vertical-align: middle;
 	z-index: 1;
+	background-color: #F0F0F0;
+	border-bottom: 1px solid #ccc;
 }
 
 .screenoverlay {
@@ -630,7 +635,7 @@ body {
 	/*height:auto;
 	*/
 	overflow:hidden;
-	margin-top:5px;
+	/*margin-top:5px;*/
 }
 
 
@@ -697,6 +702,7 @@ margin-top: 5px;
 background-color: #4C4C4C;
 font-family:"Arial";
 display:block;
+border-radius: 10px;
 }
 
 .buttonmenu ul li a:visited {
@@ -704,10 +710,8 @@ color: white;
 }
  
 .buttonmenu ul li a:hover, #NavigationMenu ul li .current {
-color: white;
-border-style:solid;
-border-color:white;
-border-width:2px;
+color: #ccc;
+background-color: #333;
 }
 
 h1 {
@@ -896,15 +900,16 @@ margin-bottom: 0;
 }
 
 footer{
-	margin-top: 5px;
+	/*margin-top: 5px;*/
 	position:relative;
 	height:50px;
-	background-color: #E6E6E6;
 	color:black;
 	text-align:center;
 	vertical-align: middle;
 	padding:0px;
 	z-index: 1;
+	background-color: #F0F0F0;
+	border-top: 1px solid #ccc;
 }
 
 #OpenVPNLogo {
